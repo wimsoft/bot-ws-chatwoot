@@ -12,7 +12,7 @@ const { handlerMessage } = require('./src/chatwoot')
 
 const PORT = process.env.PORT ?? 3001
 
-const flowPrincipal = addKeyword('hola')
+const flowPrincipal = addKeyword('hola_abcde')
     .addAnswer('Buenas bienvenido a mi ecommerce')
     .addAnswer('¿Como puedo ayudarte el dia de hoy?')
 
